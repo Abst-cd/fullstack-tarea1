@@ -1,0 +1,39 @@
+body {
+    background-color: lightblue;    
+    font-family: Arial, sans-serif;
+}
+.tituloempresa {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: navy;
+    margin-top: 20px;
+    animation: mover 3s 0s  normal none;
+}
+.logoempresa {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: auto;
+
+
+}
+
+.Copyright {
+    font-size: 12px;
+    text-align: center;
+    color: gray;
+    margin-top: 40px;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateX(-20px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+    
+    
+    
+}
