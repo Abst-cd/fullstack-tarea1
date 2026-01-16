@@ -2,6 +2,18 @@ body {
     background-color: lightblue;    
     font-family: Arial, sans-serif;
 }
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+}
+
+ol {
+    margin-bottom: 8px;
+}
 .tituloempresa {
     font-size: 24px;
     font-weight: bold;
@@ -31,7 +43,45 @@ body {
     text-align: center;
     margin-top: 30px;
 }
+.footer{
+    text-align: center;
+}
 
+.botonig:hover{
+    background-color: rgb(255, 237, 132);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.botonfb:hover{
+    background-color: rgb(166, 155, 225);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.botongh:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+}
 @keyframes mover {
     0% {
         transform: translateX(-20px);
