@@ -26,6 +26,12 @@ body {
     margin-top: 40px;
 }
 
+
+#tituloredes {
+    text-align: center;
+    margin-top: 30px;
+}
+
 @keyframes mover {
     0% {
         transform: translateX(-20px);
