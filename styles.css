@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;    
+    background-color: rgb(186, 230, 173);    
     font-family: Arial, sans-serif;
 }
 
@@ -27,8 +27,12 @@ ol {
     margin: 20px auto;
     width: 150px;
     height: auto;
+    transition: transform 0.3s ease;
 
+}
 
+.logoempresa:hover {
+    transform: scale(1.1);
 }
 
 .Copyright {
@@ -46,12 +50,34 @@ ol {
 .footer{
     text-align: center;
 }
+.botonig {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+}
 
 .botonig:hover{
-    background-color: rgb(255, 237, 132);
+    background-color: rgb(245, 96, 64);
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 30px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+}
+
+
+.botonfb {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px 15px;
     margin: 5px;
     border-radius: 5px;
     text-decoration: none;
@@ -60,10 +86,20 @@ ol {
 }
 
 .botonfb:hover{
-    background-color: rgb(166, 155, 225);
+    background-color: rgb(1, 101, 225);
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 30px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+}
+.botongh {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px 15px;
     margin: 5px;
     border-radius: 5px;
     text-decoration: none;
@@ -75,7 +111,7 @@ ol {
     background-color: rgb(0, 0, 0);
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 30px;
     margin: 5px;
     border-radius: 5px;
     text-decoration: none;
