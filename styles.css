@@ -135,7 +135,7 @@ ol {
 /* celulares */
 @media (max-width: 600px) {
     .card {
-        background-color: rgb(30, 58, 182);
+        background-color: rgb(124, 125, 133);
         width: 90%;
         padding: 20px;
     }
