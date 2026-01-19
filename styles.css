@@ -68,17 +68,38 @@ ol {
 
 .botonig:hover { 
     background-color: rgb(245, 96, 64); 
-    color: white; 
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
 }
 .botonfb:hover { 
     background-color: rgb(1, 101, 225); 
-    color: white; 
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
 }
 .botongh:hover { 
-    background-color: black; 
-    color: white; 
-}
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
 
+}
 
 
 /* tablets */
