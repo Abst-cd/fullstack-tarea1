@@ -47,11 +47,14 @@ ol {
     text-align: center;
     margin-top: 30px;
 }
+
 .footer{
     text-align: center;
 }
-.botonig {
-    background-color: rgb(255, 255, 255);
+
+
+.boton {
+    background-color: white;
     color: black;
     padding: 10px 15px;
     margin: 5px;
@@ -59,65 +62,23 @@ ol {
     text-decoration: none;
     font-size: 16px;
     display: inline-block;
+    transition: all 0.3s ease;
+
 }
 
-.botonig:hover{
-    background-color: rgb(245, 96, 64);
-    color: white;
-    border: none;
-    padding: 10px 30px;
-    margin: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 16px;
-    display: inline-block;
+.botonig:hover { 
+    background-color: rgb(245, 96, 64); 
+    color: white; 
+}
+.botonfb:hover { 
+    background-color: rgb(1, 101, 225); 
+    color: white; 
+}
+.botongh:hover { 
+    background-color: black; 
+    color: white; 
 }
 
-
-.botonfb {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    padding: 10px 15px;
-    margin: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 16px;
-    display: inline-block;
-}
-
-.botonfb:hover{
-    background-color: rgb(1, 101, 225);
-    color: white;
-    border: none;
-    padding: 10px 30px;
-    margin: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 16px;
-    display: inline-block;
-}
-.botongh {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    padding: 10px 15px;
-    margin: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 16px;
-    display: inline-block;
-}
-
-.botongh:hover{
-    background-color: rgb(0, 0, 0);
-    color: white;
-    border: none;
-    padding: 10px 30px;
-    margin: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 16px;
-    display: inline-block;
-}
 
 
 /* tablets */
